@@ -32,9 +32,9 @@ export class DataTableComponent implements OnInit {
 
     ];
     this.gridOptions.rowData = [
-        {id: 5,pNmae:'Virat Kohli',country:'England', value: 10},
-        {id: 10, value: 15},
-        {id: 15, value: 20}
+        {id: 5, pNmae: 'Virat Kohli', country: 'India', value: 10},
+        {id: 10, pNmae: 'Kane Williamson', country: 'New ZeaLand', value: 15},
+        {id: 15, pNmae: 'Jason Roy', country: 'England', value: 20}
     ];
   }
 
