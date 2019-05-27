@@ -1,14 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import {AgGridModule} from 'ag-grid-angular';
+import { AppComponent } from './core/app.component';
+import { DataTableComponent } from './modules/main/data-table/data-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataTableComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
